@@ -1,0 +1,11 @@
+### Pobierz wszystkie pozycje
+GET http://localhost:3001/books
+Accept: application/json
+
+### Dodaj nową pozycję
+POST http://localhost:3001/books
+Content-Type: application/json
+
+{
+  "title": "Never ending story"
+}
